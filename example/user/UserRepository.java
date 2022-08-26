@@ -3,7 +3,7 @@ package org.example.user;
 import java.util.HashMap;
 import java.util.Map;
 
-public class UserRepository {
+public class UserRepository implements Repository {
 
     private static final UserRepository SINGLETON = new UserRepository();
 
